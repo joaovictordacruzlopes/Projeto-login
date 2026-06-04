@@ -32,6 +32,8 @@ transform: translate(-50%, -50%);
 overflow: hidden;
 box-shadow: 0 0px 10px rgba(203, 203, 203, 0.107);
 color: #e2e8f0;
+transition: width 0.3s ease, height 0.3s ease;
+transition-timing-function: ease;
 }
 
 #login-section > div#imagem{
