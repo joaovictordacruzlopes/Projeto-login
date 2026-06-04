@@ -70,7 +70,48 @@ div#formulario >p{
   
 }
 
+form>input[type="submit"]{
+   Display: block;
+   font-size: 1em;
+   width: 100%;
+   height:30px;
+   margin-top: 22px;
+   background-color:  #7180964b;
+   border: none;
+   color: #e2e8f0;
+   cursor: pointer;
+   border-radius: 5px;}
 
+   form>input[type="submit"]:hover{
+    background-color: #718096;
+    color: #e2e8f0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+   }
+   
+   form> a.botao{
+    display:block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height:30px;   
+    margin-top: 22px;  
+    padding: 2px;
+    background-color: #7180964b;
+    border: 1px solid #718096;
+    color: #e2e8f0;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   form >.botao span{
+    font-size: 1em;
+    padding-bottom: 5px;
+   }
+    form> a.botao:hover{
+     background-color: #00276120;
+     color: #e2e8f0;
+     transition: background-color 0.3s ease, color 0.3s ease;
+    }
 
 :root {
   /* --- CORES BASE --- */
