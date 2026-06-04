@@ -30,6 +30,11 @@ background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
      float: right;
      width: 70%;
     }
+
+    div#formulario >p{
+    font-size: 1.2em;
+  
+}
 }   
 
 
@@ -40,23 +45,38 @@ background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
    } 
     
    #login-section > div#imagem{
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
 
    }
 
     #login-section > div#formulario{
-     float: right;
+     float: left;
      width: 50%;
      
     }
 
     body{
      background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
+
+
+}
+
+   div#formulario >h1{
+    font-size: 2em;
+    text-align: center;
+  
 }
   
+div#formulario >p{
+    font-size: 1.2em;
+  
+}
 
+div.campo{
+    width: 10px;
+}
 
 
 
