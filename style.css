@@ -23,7 +23,7 @@ main{
 #login-section{
 background-color: #1b1b2a; 
 width: 250px;
-height: 500px;
+height: 515px;
 border-radius: 20px;
 position: absolute;
 top: 50%;
@@ -68,6 +68,21 @@ div#formulario >p{
     font-size: 0.8em;
     margin-bottom: 20px;
   
+}
+
+form >div.campo{
+    background-color: #232336;
+    border-radius: 5px;
+    display:block;
+    height: 40px;   
+    margin:10px 0px;
+}
+
+
+
+
+div .campo > label{
+    display:none;
 }
 
 form>input[type="submit"]{
