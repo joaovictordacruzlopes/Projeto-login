@@ -38,8 +38,8 @@ transition-timing-function: ease;
 
 #login-section > div#imagem{
     display:block;
-background: url(../imagens/ca.png) no-repeat center;
-height: 150px;
+    background-image: url(./assets/login.png);
+    height: 150px;
 background-size: cover;
 
 }
