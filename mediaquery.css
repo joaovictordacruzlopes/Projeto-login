@@ -74,29 +74,27 @@ background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
    }
 
    div.campo {
-     width: 100%;
+     width: 95%;
      height: 46px;
      margin: 10px 0;
      display: flex;
      align-items: center;
    }
 
-   div.campo > span {
-     font-size: 1.6em;
-     width: 58px;
-     padding: 0 8px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-   }
+  div .campo> span{
+   font-size: 2em;
+   width: 30px;
+   padding: 6px;
+   padding-left:2px}
+
 
    div.campo > input {
      font-size: 1em;
-     width: calc(100% - 44px);
-     height: 100%;
+     width: calc(100% -34px);
+     height: 92%;
      border-radius: 8px;
-     padding: 6px 8px;
-     transform: none;
+     padding:5px;
+     
    }
 
   
