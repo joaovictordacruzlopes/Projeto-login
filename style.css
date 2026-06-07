@@ -76,8 +76,29 @@ form >div.campo{
     display:block;
     height: 40px;   
     margin:10px 0px;
+    border: 1px solid #718096;
 }
 
+
+div .campo> span{
+   font-size: 2em;
+   width: 30px;
+   padding: 6px;
+   padding-left:2px}
+
+
+
+
+   div.campo > input{
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 80%;
+    border-radius: 8px;
+    padding: 5px;
+    transform: translateY(-12px);
+
+
+}
 
 
 

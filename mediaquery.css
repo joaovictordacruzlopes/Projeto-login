@@ -38,49 +38,74 @@ background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
 }   
 
 
-@media screen and (min-width: 992px) 
-{
-   #login-section{
-    width: 950px;
-   } 
-    
-   #login-section > div#imagem{
-    float: right;
-    width: 50%;
-    height: 100%;
-
+@media screen and (min-width: 992px) {
+   body {
+     background-image: linear-gradient(to top, #00001633, #b6b6b621 50%);
    }
 
-    #login-section > div#formulario{
+   #login-section {
+     width: 950px;
+     height: 430px;
+   }
+
+   #login-section > div#imagem {
+     float: right;
+     width: 50%;
+     height: 100%;
+   }
+
+   #login-section > div#formulario {
      float: left;
      width: 50%;
-     
-    }
+     padding: 18px 18px 16px;
+   }
 
-    body{
-     background-image:linear-gradient(to top, #00001633, #b6b6b621 50%);
+   div#formulario > h1 {
+     font-size: 2em;
+     text-align: center;
+     margin-bottom: 12px;
+   }
 
+   div#formulario > p {
+     font-size: 1em;
+     line-height: 1.4;
+     margin-bottom: 14px;
+     padding: 19px;
+   }
 
-}
+   div.campo {
+     width: 100%;
+     height: 46px;
+     margin: 10px 0;
+     display: flex;
+     align-items: center;
+   }
 
-   div#formulario >h1{
-    font-size: 2em;
-    text-align: center;
+   div.campo > span {
+     font-size: 1.6em;
+     width: 58px;
+     padding: 0 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+
+   div.campo > input {
+     font-size: 1em;
+     width: calc(100% - 44px);
+     height: 100%;
+     border-radius: 8px;
+     padding: 6px 8px;
+     transform: none;
+   }
+
   
-}
-  
-div#formulario >p{
-    font-size: 1.2em;
-  
-}
 
-div.campo{
-    width: 10px;
-}
-
-
-
-
+   form > input[type="submit"],
+   form > a.botao {
+     margin-top: 16px;
+     height: 38px;
+   }
 
 
 
